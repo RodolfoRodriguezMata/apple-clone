@@ -1,6 +1,6 @@
 # apple-clone
-Attemptting to recreate the Mint singup page.
-Project: HTML Forms
+Attemptting to recreate an old Apple page.
+Project: building with Backgrounds and Gradients
 
 
 <!-- PROJECT SHIELDS -->
@@ -19,27 +19,27 @@ Project: HTML Forms
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/RodolfoRodriguezMata/nytimes-clone">
-    <img src="images/New-york-Times-Logo.jpg" alt="Logo" width="200">
+  <a href="https://github.com/RodolfoRodriguezMata/apple-clone">
+    <img src="./images/snapshot.jpg" alt="Logo" width="200">
 
   </a>
 
-  <h3 align="center">New York Times article clone</h3>
+  <h3 align="center">Apple page clone</h3>
 
   <p align="center">
-    An attempt at recreating an article page of the New York Times 
-    (https://nyti.ms/1ivEk8k)
+    An attempt at recreating an old landing page of Apple 
+    (https://web.archive.org/web/20140301004610/http://www.apple.com/)
     <br />
-    <a href="https://github.com/RodolfoRodriguezMata/nytimes-clone"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/RodolfoRodriguezMata/apple-clone"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://raw.githack.com/RodolfoRodriguezMata/nytimes-clone/feature-branch/index.html
+    <a href="https://raw.githack.com/RodolfoRodriguezMata/apple-clone/index.html
 
 ">View Demo</a>
     ·
-    <a href="https://github.com/RodolfoRodriguezMata/nytimes-clone/issues">Report Bug</a>
+    <a href="https://github.com/RodolfoRodriguezMata/apple-clone/issues">Report Bug</a>
     ·
-    <a href="https://github.com/RodolfoRodriguezMata/nytimes-clone/issues">Request Feature</a>
+    <a href="https://github.com/RodolfoRodriguezMata/apple-clone/issues">Request Feature</a>
   </p>
 </p>
 
@@ -59,33 +59,31 @@ Project: HTML Forms
 ## About The Project
 
 Built for Microverse following these requirements:
-#### header
-- [x] should be fixed at the top of the viewport
-- [x] inner elements aligned with float
-- [x] must contain corresponding buttons inside
+#### nav
+- [x] built with gradient
+- [x] use a main background image for all the icons
+- [x] search bar "indented" into the nav
 
-#### main body of the page (the article)
-- [x] must contain main image
-- [x] must contain captions, subtitles and text with correct styling
-- [x] must include monography image with layered text
-- [x] must contain iframe for video
-- [x] must contain secondary image with captions
-- [x] must include floated aside for sign up and editor picks
-- [x] must include "more from" section, editor picks and most popular listings
-- [x] must include footer nav section
-- [x] must include footer with disclaimer
-- [x] msut include sign-up bar fied at the bottom
+#### main body of the page
+- [x] hero image as background
+- [x] text within image made up of empty spans with background svg for text
+- [x] 4 "cards" with background images as aside
+
+#### footer
+
+- [x] divided into disclaimer and links sections
+- [x] aligned with flexbox
 
 
 and following this lesson :
-https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements
+https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-backgrounds-and-gradients
 
-[![Product Name Screen Shot][product-screenshot]](./images/snapshot.png)
+[![Product Name Screen Shot][product-screenshot]](./images/snapshot.jpg)
 
 ## Built With
 * (HTML5)
 * (CSS3)
-* Cheltenham, franklin and imperial fonts by New York Times
+* Lucida Grande font
 
 
 
@@ -100,9 +98,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 Rodolfo Rodriguez Mata - [Github profile](https://github.com/RodolfoRodriguezMata)
-Mohamed Sabry - [Github profile](https://github.com/mohamedSabry0)
 
-Project Link: [https://github.com/RodolfoRodriguezMata/nytimes-clone](https://github.com/RodolforodriguezMata/nytimes-clone)
+Project Link: [https://github.com/RodolfoRodriguezMata/apple-clone](https://github.com/RodolforodriguezMata/apple-clone)
 
 
 
