@@ -21,7 +21,7 @@ nav {
   width: 958px;
   height: 36px;
   border: none;
-  box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
   border-radius: 4px;
   background: linear-gradient(#757575, #8d8d8d 4%, #6d6d6d 50%, #5e5e5e 50%, #797979 97%, #484848 100%);
   display: flex;
@@ -112,7 +112,7 @@ nav ul li a span {
   background-position: 3% 7.25px;
   background-repeat: no-repeat;
   background-size: 15px 15px;
-  background-color: rgba(255,255,255,.1);
+  background-color: rgba(255, 255, 255, 0.1);
   box-shadow: rgba(0, 0, 0, 0.6) 0 2px 1px inset, rgba(255, 255, 255, 0.2) 0 1px 0;
   border: 0 none;
   border-radius: 12px;
@@ -189,7 +189,7 @@ footer {
   display: flex;
   color: #6e6e6e;
   font-size: 10px;
-  font-family: 'lucida-grande';
+  font-family: 'lucida-grande', sans-serif;
   margin-top: -1%;
 }
 
@@ -207,7 +207,7 @@ footer {
 
 .left span a {
   text-decoration: none;
-  color: #0088cc;
+  color: #08c;
 }
 
 .right {
@@ -223,7 +223,7 @@ footer {
 
 .right ul li {
   padding: 5px;
-  border-right: 1px solid #cccccc;
+  border-right: 1px solid #ccc;
 }
 
 #odd {
@@ -232,7 +232,7 @@ footer {
 
 .right ul li a {
   text-decoration: none;
-  color: #0088cc;
+  color: #08c;
 }
 
 #country-ball {
