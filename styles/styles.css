@@ -5,7 +5,9 @@
   background-position: 50% 100%;
   background-size: 1440px 1315px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 nav {
@@ -15,7 +17,7 @@ nav {
   box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
   border-radius: 4px;
   background: linear-gradient(#757575, #8d8d8d 4%, #6d6d6d 50%, #5e5e5e 50%, #797979 97%, #484848 100%);
-  margin-top: 5%;
+  margin-top: -10%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -109,3 +111,27 @@ nav ul li a span {
   border: 0 none;
   border-radius: 12px;
 }
+
+#title {
+  display: block;
+  background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/your_verse_title_small.png");
+  width: 980px;
+  height: 95px;
+}
+
+#description {
+  height: 82px;
+  width: 980px;
+  display: block;
+  background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/your_verse_subhead_small.png");
+  margin-top: 1%;
+}
+
+#film {
+  height: 32px;
+  width: 980px;
+  display: block;
+  background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/cta_your_verse_27pt.png");
+  margin-top: 5%;
+}
+
