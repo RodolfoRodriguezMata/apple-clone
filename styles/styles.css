@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'lucida-grande';
+  src: url("../fonts/Lucida\ Grande\ Regular.ttf") format('woff');
+  font-style: normal;
+  font-weight: 400;
+}
+
 #hero {
   width: 100%;
   height: 100vh;
@@ -138,7 +145,7 @@ nav ul li a span {
   width: 100%;
   height: 200px;
   display: flex;
-
+  border-top: 1.5px solid white;
 }
 
 #i5s {
@@ -147,6 +154,7 @@ nav ul li a span {
   background-image: url(../images/card-1.jpg);
   background-size: 100%;
   background-position: 0% 50%;
+  border-right: 1.5px solid white;
 }
 
 #i5c {
@@ -155,6 +163,7 @@ nav ul li a span {
   background-image: url(../images/card-2.jpg);
   background-size: 100%;
   background-position: 0% 50%;
+  border-right: 1.5px solid white;
 }
 
 #yrs {
@@ -163,6 +172,7 @@ nav ul li a span {
   background-image: url(../images/card-3.jpg);
   background-size: 100%;
   background-position: 0% 50%;
+  border-right: 1.5px solid white;
 }
 
 #supplier {
@@ -171,4 +181,61 @@ nav ul li a span {
   background-image: url(../images/card-4.jpg);
   background-size: 100%;
   background-position: 0% 50%;
+}
+
+footer {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  color: #6e6e6e;
+  font-size: 10px;
+  font-family: 'lucida-grande';
+  margin-top: -1%;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 50%;
+}
+
+.left span {
+  padding-left: 20%;
+}
+
+.left span a {
+  text-decoration: none;
+  color: #0088cc;
+}
+
+.right {
+  width: 50%;
+}
+
+.right ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 2%;
+}
+
+.right ul li {
+  padding: 5px;
+  border-right: 1px solid #cccccc;
+}
+
+#odd {
+  border-right: none;
+}
+
+.right ul li a {
+  text-decoration: none;
+  color: #0088cc;
+}
+
+#country-ball {
+  height: 16px;
+  width: 16px;
 }
