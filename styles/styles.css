@@ -47,6 +47,10 @@ nav ul li {
   align-items: center;
 }
 
+nav ul li:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
 nav ul li a {
   color: rgba(0, 0, 0, 0);
   text-decoration: rgba(0, 0, 0, 0);
@@ -152,6 +156,10 @@ nav ul li a span {
 #i5s {
   width: 25%;
   height: 93%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   background-image: url(../images/card-1.jpg);
   background-size: 100%;
   background-position: 0% 50%;
@@ -162,6 +170,10 @@ nav ul li a span {
 #i5c {
   width: 25%;
   height: 93%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   background-image: url(../images/card-2.jpg);
   background-size: 100%;
   background-position: 0% 50%;
@@ -172,6 +184,10 @@ nav ul li a span {
 #yrs {
   width: 25%;
   height: 93%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   background-image: url(../images/card-3.jpg);
   background-size: 100%;
   background-position: 0% 50%;
@@ -182,6 +198,10 @@ nav ul li a span {
 #supplier {
   width: 25%;
   height: 93%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   background-image: url(../images/card-4.jpg);
   background-size: 100%;
   background-position: 0% 50%;
