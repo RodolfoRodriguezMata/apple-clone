@@ -47,10 +47,6 @@ nav ul li {
   align-items: center;
 }
 
-nav ul li:hover {
-  background-color: rgba(0, 0, 0, 0.6);
-}
-
 nav ul li a {
   color: rgba(0, 0, 0, 0);
   text-decoration: rgba(0, 0, 0, 0);
@@ -263,4 +259,8 @@ footer {
 #country-ball {
   height: 16px;
   width: 16px;
+}
+
+nav ul li:hover {
+  background-color: rgba(0, 0, 0, 0.6);
 }
